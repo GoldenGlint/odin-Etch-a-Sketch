@@ -86,6 +86,9 @@ function redrawDiv(num){
             else if(mode=="erase"){
                 div.style.backgroundColor="white";
             }
+            else if(mode =="rainbow"){
+                div.style.backgroundColor=randomColor();
+            }
         })
         row.appendChild(div);
     }

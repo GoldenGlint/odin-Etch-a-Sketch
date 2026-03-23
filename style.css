@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #e8f4f8;
+}
+
+.whole{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #2d6a8f;
+    color: white;
+    border-radius: 4px;
+
+}
+
+/*container with the column and buttons*/
+
+
+.dimension{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.dimension h4{
+    margin: 0;
+}
+
+.btn{
+    align-self: center;
+}
+
+/*container with the box*/
+.container{
+    margin: 20px;
+    border: 5px solid;
+    border-color:black;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    flex:1;
+    
+}
+
+
+
+.square{
+    flex: 1;
+}
